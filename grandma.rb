@@ -12,8 +12,9 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-if speak_to_grandma == "Hi!"
-  puts "HUH?! SPEAK UP, SONNY!"
+if speak_to_grandma == "I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
 elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
 else 
+  puts "HUH?! SPEAK UP, SONNY!"
